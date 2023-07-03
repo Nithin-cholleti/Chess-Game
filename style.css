@@ -1,0 +1,41 @@
+.board{
+    display: grid;
+    grid-template-rows: repeat(8 , 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    width: 600px;
+    position: relative;
+    margin: auto;
+    gap: 0;
+}
+.box{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(240, 201, 150);
+    font-size: 0px;
+}
+.black{
+    background-color: rgb(100, 75, 43);
+}
+
+.heading{
+    font-weight: 300;
+    text-align: center;
+    grid-column-end: span 8;
+}
+.allimg{
+    width: 50px;
+    position: relative;
+    bottom: 0px;
+}
+.allpawn{
+    transform: scale(1);
+}
+.authcont {
+    width: 100vw;
+}
+
+.author {
+    float: right;
+    margin-right: 50px;
+
+}
