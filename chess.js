@@ -154,9 +154,10 @@ function pawns(box , up , side){
             
         if (document.getElementById(`b${box + 100}`).innerText.length == 0) {
             document.getElementById(`b${box + 100}`).style.backgroundColor = 'green'
-        }
+        
         if ( up/100 == 2 && document.getElementById(`b${box + 200}`).innerText.length == 0) {
             document.getElementById(`b${box + 200}`).style.backgroundColor = 'green'
+        }
         }
         if (side < 8 && document.getElementById(`b${box + 100 + 1}`).innerText.length !== 0) {
             document.getElementById(`b${box + 100 + 1}`).style.backgroundColor = 'green'
@@ -171,9 +172,10 @@ function pawns(box , up , side){
 
         if (document.getElementById(`b${box - 100}`).innerText.length == 0) {
             document.getElementById(`b${box - 100}`).style.backgroundColor = 'green'
-        }
+     
         if (up/100 == 7 && document.getElementById(`b${box - 200}`).innerText.length == 0) {
             document.getElementById(`b${box - 200}`).style.backgroundColor = 'green'
+        }
         }
         if (side < 8 && document.getElementById(`b${box - 100 + 1}`).innerText.length !== 0) {
             document.getElementById(`b${box - 100 + 1}`).style.backgroundColor = 'green'
